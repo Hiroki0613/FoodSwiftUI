@@ -15,6 +15,7 @@
 		7F014B0427BBE01600191629 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F014B0327BBE01600191629 /* AccountView.swift */; };
 		7F014B0627BBE02400191629 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F014B0527BBE02400191629 /* OrderView.swift */; };
 		7F014B0827BBE75E00191629 /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F014B0727BBE75E00191629 /* Appetizer.swift */; };
+		7F014B0A27BBEEDD00191629 /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F014B0927BBEEDD00191629 /* AppetizerListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		7F014B0327BBE01600191629 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		7F014B0527BBE02400191629 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		7F014B0727BBE75E00191629 /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
+		7F014B0927BBEEDD00191629 /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				7F014B0127BBE00300191629 /* AppetizerListView.swift */,
 				7F014B0327BBE01600191629 /* AccountView.swift */,
 				7F014B0527BBE02400191629 /* OrderView.swift */,
+				7F014B0927BBEEDD00191629 /* AppetizerListCell.swift */,
 			);
 			path = FoodSwiftUI;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F014B0827BBE75E00191629 /* Appetizer.swift in Sources */,
+				7F014B0A27BBEEDD00191629 /* AppetizerListCell.swift in Sources */,
 				7F014B0427BBE01600191629 /* AccountView.swift in Sources */,
 				7F014AF627BBDF4400191629 /* AppetizerTabView.swift in Sources */,
 				7F014AF427BBDF4400191629 /* FoodSwiftUIApp.swift in Sources */,
