@@ -28,6 +28,7 @@
 		7F014B2C27BCFA9A00191629 /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F014B2B27BCFA9A00191629 /* XDismissButton.swift */; };
 		7F014B2E27BD06A700191629 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F014B2D27BD06A700191629 /* AccountViewModel.swift */; };
 		7F014B3027BD089800191629 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F014B2F27BD089800191629 /* String+Ext.swift */; };
+		7F014B3227BD115E00191629 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F014B3127BD115E00191629 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		7F014B2B27BCFA9A00191629 /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
 		7F014B2D27BD06A700191629 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		7F014B2F27BD089800191629 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		7F014B3127BD115E00191629 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				7F014B0727BBE75E00191629 /* Appetizer.swift */,
+				7F014B3127BD115E00191629 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 				7F014B1027BCC3CC00191629 /* AppetizerListViewModel.swift in Sources */,
 				7F014B1627BCD75700191629 /* Color+Ext.swift in Sources */,
 				7F014B0427BBE01600191629 /* AccountView.swift in Sources */,
+				7F014B3227BD115E00191629 /* User.swift in Sources */,
 				7F014B2A27BCF9A100191629 /* APButton.swift in Sources */,
 				7F014B1427BCD67800191629 /* LoadingView.swift in Sources */,
 				7F014AF627BBDF4400191629 /* AppetizerTabView.swift in Sources */,
