@@ -29,6 +29,7 @@
 		7F014B2E27BD06A700191629 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F014B2D27BD06A700191629 /* AccountViewModel.swift */; };
 		7F014B3027BD089800191629 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F014B2F27BD089800191629 /* String+Ext.swift */; };
 		7F014B3227BD115E00191629 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F014B3127BD115E00191629 /* User.swift */; };
+		7F014B3527BD2D0600191629 /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F014B3427BD2D0600191629 /* EmptyState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		7F014B2D27BD06A700191629 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		7F014B2F27BD089800191629 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		7F014B3127BD115E00191629 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7F014B3427BD2D0600191629 /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +194,7 @@
 		7F014B2227BCE86D00191629 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7F014B3327BD2CD400191629 /* Empty_States */,
 				7F014B2827BCF99200191629 /* Buttons */,
 				7F014B2527BCE88700191629 /* Image */,
 				7F014B2427BCE88100191629 /* Cells */,
@@ -231,6 +234,14 @@
 				7F014B2B27BCFA9A00191629 /* XDismissButton.swift */,
 			);
 			path = Buttons;
+			sourceTree = "<group>";
+		};
+		7F014B3327BD2CD400191629 /* Empty_States */ = {
+			isa = PBXGroup;
+			children = (
+				7F014B3427BD2D0600191629 /* EmptyState.swift */,
+			);
+			path = Empty_States;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,6 +329,7 @@
 				7F014B0C27BCA6C900191629 /* NetworkManager.swift in Sources */,
 				7F014B1827BCE25600191629 /* RemoteImage.swift in Sources */,
 				7F014B3027BD089800191629 /* String+Ext.swift in Sources */,
+				7F014B3527BD2D0600191629 /* EmptyState.swift in Sources */,
 				7F014B2727BCEA5000191629 /* AppetizerDetailView.swift in Sources */,
 				7F014AF427BBDF4400191629 /* FoodSwiftUIApp.swift in Sources */,
 				7F014B1227BCCC3F00191629 /* Alert.swift in Sources */,
