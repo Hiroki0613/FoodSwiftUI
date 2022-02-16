@@ -30,6 +30,7 @@
 		7F014B3027BD089800191629 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F014B2F27BD089800191629 /* String+Ext.swift */; };
 		7F014B3227BD115E00191629 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F014B3127BD115E00191629 /* User.swift */; };
 		7F014B3527BD2D0600191629 /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F014B3427BD2D0600191629 /* EmptyState.swift */; };
+		7F014B3727BD30AC00191629 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F014B3627BD30AC00191629 /* Order.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		7F014B2F27BD089800191629 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		7F014B3127BD115E00191629 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		7F014B3427BD2D0600191629 /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
+		7F014B3627BD30AC00191629 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 			children = (
 				7F014B0727BBE75E00191629 /* Appetizer.swift */,
 				7F014B3127BD115E00191629 /* User.swift */,
+				7F014B3627BD30AC00191629 /* Order.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				7F014B0E27BCA7F600191629 /* APError.swift in Sources */,
 				7F014B2C27BCFA9A00191629 /* XDismissButton.swift in Sources */,
 				7F014B0A27BBEEDD00191629 /* AppetizerListCell.swift in Sources */,
+				7F014B3727BD30AC00191629 /* Order.swift in Sources */,
 				7F014B2E27BD06A700191629 /* AccountViewModel.swift in Sources */,
 				7F014B1027BCC3CC00191629 /* AppetizerListViewModel.swift in Sources */,
 				7F014B1627BCD75700191629 /* Color+Ext.swift in Sources */,
