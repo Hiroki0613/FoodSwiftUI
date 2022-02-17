@@ -31,7 +31,10 @@ struct AppetizerListView: View {
                 .listStyle(.plain)
                 .disabled(viewModel.isShowingDetail)
             }
-            .onAppear {
+//            .onAppear {
+//                viewModel.getAppetizers()
+//            }
+            .task {
                 viewModel.getAppetizers()
             }
             
